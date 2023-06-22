@@ -1,13 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="estilos.css">
-  <title>Buscar artículo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Buscar Inmueble</title>
   <script>
     function mostrarCampo() {
       var criterio = document.getElementById("criterio").value;
       var campo = document.getElementById("campo");
-      if (criterio == "nombre" || criterio == "precio") {
+      if (criterio == "nombre") {
         campo.style.display = "block";
       } else {
         campo.style.display = "none";
@@ -19,23 +19,20 @@
 <div class="contenedor-buscar">
   <div class="titulo">
     <h1 class="titulo-texto" style="text-align: center;">
-      Buscar artículo
+      Buscar inmueble
     </h1>
   </div>
   <div class="formulario">
-    <form action="BuscarArticuloServlet" method="post">
+    <form action="BuscarInmuebleServlet" method="post">
       <div class="campo" style="text-align: center">
         <label for="criterio" style="color: white">Criterio de búsqueda:</label>
         <select id="criterio" name="criterio" required onchange="mostrarCampo()">
           <option value="">Seleccione una opción</option>
-          <option value="nombre">Nombre</option>
-          <option value="precio">Precio</option>
+          <option value="Madera">Madera</option>
+          <option value="Cemento">Cemento</option>
+          <option value="Metalcom">Metalcon</option>
+          <option value="Container">Container</option>
         </select>
-      </div>
-      <br>
-      <div class="campo" style="text-align: center; display: none;" id="campo">
-        <label for="valor" style="color: white">Ingrese información seleccionada:</label>
-        <input type="text" id="valor" name="valor" required>
       </div>
       <br>
       <div class="boton" style="text-align: center">

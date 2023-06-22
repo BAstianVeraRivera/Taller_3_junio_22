@@ -4,8 +4,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Agregar Vendedor</title>
 </head>
-<body class="fondo-articulo">
-<div class="contenedor-articulo">
+<body class="fondo-vendedor">
+<div class="contenedor-vendedor">
     <div class="titulo">
         <h1 class="titulo-texto" style="text-align: center;">
             Agregar Vendedor

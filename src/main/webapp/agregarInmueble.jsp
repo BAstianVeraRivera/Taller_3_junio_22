@@ -4,8 +4,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Agregar Inmueble</title>
 </head>
-<body class="fondo-cliente">
-<div class="contenedor-cliente">
+<body class="fondo-inmueble">
+<div class="contenedor-inmueble">
   <div class="titulo">
     <h1 class="titulo-texto" style="text-align: center;">
       Agregar Inmueble

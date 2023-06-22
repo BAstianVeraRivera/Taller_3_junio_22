@@ -1,27 +1,9 @@
-.contenido {
-    display: flex;
-    flex-direction: row;
-    height: 70%;
-}
 
 iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
-.lista {
-    list-style-type: square;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    color:rgb(0, 0, 0);
-}
-.texto-2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(255, 255, 255, 0.69);
-    text-shadow: 1px 1px 1px black;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-
 .texto {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 2px 2px 2px black;
@@ -87,39 +69,39 @@ button:hover{
     box-shadow: 2px 2px 2px;
     border-radius: 15px;
 }
-.fondo-articulo {
+.fondo-vendedor {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #9fb4d2;
+    background-color: #d29f9f;
 }
 
-.contenedor-articulo {
+.contenedor-vendedor {
     width: 30%;
     height: 60%;
     margin: auto;
-    background-color: #01356E;
+    background-color: #6e0101;
     box-shadow: 2px 2px 2px;
     border-radius: 15px;
 }
-.fondo-cliente {
+.fondo-inmueble {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #9fb4d2;
+    background-color: #d29f9f;
 }
 
-.contenedor-cliente {
+.contenedor-inmueble {
     width: 30%;
     height: 50%;
     margin: auto;
-    background-color: #01356E;
+    background-color: #6e0101;
     box-shadow: 2px 2px 2px;
     border-radius: 15px;
 }
@@ -130,32 +112,14 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #9fb4d2;
+    background-color: #d29f9f;
 }
 
 .contenedor-buscar {
     width: 30%;
     height: 30%;
     margin: auto;
-    background-color: #01356E;
-    box-shadow: 2px 2px 2px;
-    border-radius: 15px;
-}
-.fondo-actualizar-articulo {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #9fb4d2;
-}
-
-.contenedor-actualizar {
-    width: 30%;
-    height: 90%;
-    margin: auto;
-    background-color: #01356E;
+    background-color: #6e0101;
     box-shadow: 2px 2px 2px;
     border-radius: 15px;
 }
