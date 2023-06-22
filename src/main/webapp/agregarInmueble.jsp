@@ -14,6 +14,7 @@
   <div class="formulario">
     <form action="AgregarInmuebleServlet" method="post">
       <div class="campo" style="text-align: center">
+
         <label for="tipoConstruccion" style="color: white">Tipo Construccion:</label>
         <input type="text" id="tipoConstruccion" name="tipoConstruccion" required>
       </div>
@@ -24,13 +25,15 @@
       </div>
       <br>
       <div class="campo" style="text-align: center">
-        <label for="precio" style="color: white">Correo:</label>
-        <input type="email" id="precio" name="precio" required>
+        <label for="precio" style="color: white">Precio:</label>
+        <input type="number" id="precio" name="precio" required>
       </div>
       <br>
       <br>
       <div class="boton" style="text-align: center">
-        <input type="submit" value="Agregar">
+        <a href="registroExitoso.jsp">
+          <input type="submit" value="Agregar">
+        </a>
       </div>
     </form>
   </div>

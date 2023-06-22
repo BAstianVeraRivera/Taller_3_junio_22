@@ -35,9 +35,10 @@
         </select>
       </div>
       <br>
-      <div class="boton" style="text-align: center">
-        <input type="submit" value="Buscar">
-      </div>
+      <ul class="enlaces-texto" style="text-align: center">
+        <li><a href="agregarArticulo.jsp"><button>Buscar</button></a></li>
+        <br>
+      </ul>
     </form>
   </div>
 </div>

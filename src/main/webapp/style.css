@@ -123,3 +123,35 @@ button:hover{
     box-shadow: 2px 2px 2px;
     border-radius: 15px;
 }
+.fondo-registro-exitoso {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d29f9f;
+}
+
+.contenedor-registro-exitoso {
+    width: 30%;
+    height: 10%;
+    margin: auto;
+    background-color: #6e0101;
+    box-shadow: 2px 2px 2px;
+    border-radius: 15px;
+}
+.titulo-registro {
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-texto-registro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}

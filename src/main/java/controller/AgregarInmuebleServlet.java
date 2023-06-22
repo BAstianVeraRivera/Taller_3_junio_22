@@ -18,6 +18,5 @@ public class AgregarInmuebleServlet extends HttpServlet {
         Inmueble inmueble = new Inmueble(tipoConstruccion, ubicacionGeografica, precio);
         GestorDatos gd = new GestorDatos();
         gd.agregarInmueble(inmueble);
-        response.sendRedirect("confirmacion.jsp");
     }
 }

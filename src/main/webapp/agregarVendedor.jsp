@@ -39,9 +39,10 @@
             </div>
             <br>
             <br>
-            <div class="boton" style="text-align: center">
-                <input type="submit" value="Agregar">
-            </div>
+            <ul class="enlaces-texto" style="text-align: center">
+                <li><a href="agregarArticulo.jsp"><button>Agregar</button></a></li>
+                <br>
+            </ul>
         </form>
     </div>
 </div>

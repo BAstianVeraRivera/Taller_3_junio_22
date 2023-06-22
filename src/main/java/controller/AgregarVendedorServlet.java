@@ -20,7 +20,7 @@ public class AgregarVendedorServlet extends HttpServlet {
         Vendedor vendedor = new Vendedor(nombreVendedor, rut, direccion, titulo,estadoCivil);
         GestorDatos gd = new GestorDatos();
         gd.agregarVendedor(vendedor);
-        response.sendRedirect("confirmacion.jsp");
+        response.sendRedirect("registroExitoso.jsp");
     }
 }
 
