@@ -25,7 +25,7 @@
   <div class="formulario">
     <form action="BuscarInmuebleServlet" method="post">
       <div class="campo" style="text-align: center">
-        <label for="criterio" style="color: white">Criterio de búsqueda:</label>
+        <label for="criterio" style="color: white">Material:</label>
         <select id="criterio" name="criterio" required onchange="mostrarCampo()">
           <option value="">Seleccione una opción</option>
           <option value="Madera">Madera</option>
