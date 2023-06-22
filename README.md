@@ -1,1 +1,3 @@
 Taller 3 Bastian Vera
+
+** OPERADOR FUNCIONAL: OPERA
